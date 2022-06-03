@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-server-template",
+  "version": "1.0.0",
+  "description": "Starting Template for Node JS Express Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Prodipta",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
